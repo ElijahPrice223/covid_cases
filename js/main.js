@@ -16,8 +16,8 @@ map.on('load', () => { //simplifying the function statement: arrow with brackets
     // when loading a geojson, there are two steps
     // add a source of the data and then add the layer out of the source
     map.addSource('rates', {
-        type: 'json',
-        data: 'assets/us-covid-2020-rates.json'
+        type: 'geojson',
+        data: 'assets/us-covid-2020-rates.geojson'
     });
     map.addLayer({
             'id': 'rates-point',
