@@ -5,7 +5,7 @@ let map = new mapboxgl.Map({
     style: 'mapbox://styles/mapbox/dark-v10',
     zoom: 5, // starting zoom
     minZoom: 4, // minimum zoom level of the map
-    center: [138, 38] // starting center
+    center: [47, -122] // starting center
 });
 const grades = [4, 5, 6],
     colors = ['rgb(208,209,230)', 'rgb(103,169,207)', 'rgb(1,108,89)'],
